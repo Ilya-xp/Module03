@@ -1,0 +1,84 @@
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-image: url('../images/WidgetCoLogo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    font-variant: small-caps;
+    border-bottom: 1px solid black;
+    border-top: 1px solid rgb(119, 119, 119);
+    font-size: 20px;
+    border-right: 20px solid rgb(0, 0, 0);
+}
+
+aside {
+    text-align: right;
+    width: 25%;
+    float: right;
+    font-size: 18px;
+    border-right: 20px solid rgb(52, 0, 87);
+    padding-right: 15px;
+}
+
+aside::first-line {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: left;
+    width: 75%;
+
+    margin-top: 2%;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    float: left;
+    font-style: italic;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+p {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 18px;
+    line-height: 1.6;
+    clear: both;
+}
+
+section {
+    display: block;
+    background-color: antiquewhite;
+    border: 3px solid green;
+    border-left-width: 25px;
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    clear: both;
+}
+
+footer {
+    border-top: 1px solid rgb(119, 119, 119);
+    text-align: right;
+    padding-top: 5px;
+    margin-top: 15px;
+    color: rgb(119, 119, 119);
+    font-style: italic;
+}
+
+footer a {
+    color: rgb(119, 119, 119);;
+}
